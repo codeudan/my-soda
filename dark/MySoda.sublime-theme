@@ -599,9 +599,9 @@
     {
         "class": "sidebar_tree",
         "row_padding": [8, 4],
-        "indent": 17,
+        "indent": 13,
         "indent_offset": 15,
-        "indent_top_level": false
+        "indent_top_level": false,
     },
     // Sidebar rows
     {
@@ -609,6 +609,13 @@
         "layer0.texture": "Theme - MySoda/dark/images/sidebar-row-selected.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1, 1]
+    },
+
+    // Sidebar row hover
+    {
+        "class": "tree_row",
+        "attributes": ["selectable", "hover"],
+        "layer0.opacity": 0.4,
     },
     // Sidebar row selected
     {
@@ -621,6 +628,7 @@
         "class": "sidebar_heading",
         "color": [210, 210, 210],
         "font.bold": true,
+        "font.size": 13,
         "shadow_color": [0, 0, 0],
         "shadow_offset": [0, -1]
     },
