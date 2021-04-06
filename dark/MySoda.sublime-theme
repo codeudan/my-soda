@@ -645,7 +645,8 @@
         "shadow_color": [0, 0, 0],
         "shadow_offset": [0, -1],
         "font.bold": false,
-        "font.italic": false
+        "font.italic": false,
+        "font.size": 12,
     },
     // Sidebar folder entry
     {
